@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/test-c.dir/link.d "CMakeFiles/test-c.dir/test-c.c.o" -o ../bin/test-c  -Wl,-rpath,/data/data/com.termux/files/home/llama.cpp/build/bin ../bin/libllama.so ../bin/libggml.so ../bin/libggml-cpu.so ../bin/libggml-base.so

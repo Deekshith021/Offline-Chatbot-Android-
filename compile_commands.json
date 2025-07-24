@@ -1,0 +1,986 @@
+[
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread -o CMakeFiles/ggml-base.dir/ggml.c.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-alloc.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-alloc.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-backend.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-backend.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-opt.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-opt.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-threading.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-threading.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-quants.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"c31e6064\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.0.5884\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/gguf.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/gguf.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/quants.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/arch/arm/quants.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/arch/arm/quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/.. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/. -I/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -mcpu=native+nodotprod+noi8mm+nosve+nosme -fopenmp=libomp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/arch/arm/repack.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-cpu/arch/arm/repack.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/ggml/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "output": "ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-adapter.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-adapter.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-adapter.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-arch.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-arch.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-arch.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-batch.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-batch.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-batch.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-chat.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-chat.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-chat.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-context.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-context.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-context.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-context.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-cparams.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-cparams.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-cparams.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-cparams.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-grammar.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-grammar.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-grammar.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-graph.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-graph.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-graph.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-hparams.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-hparams.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-hparams.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-impl.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-impl.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-impl.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-io.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-io.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-io.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-io.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-kv-cache-unified.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-kv-cache-unified.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-kv-cache-unified-iswa.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-kv-cache-unified-iswa.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-memory.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-memory.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-memory.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-memory-hybrid.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-memory-hybrid.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-memory-recurrent.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-memory-recurrent.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-mmap.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-mmap.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-mmap.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-model-loader.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-model-loader.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-model-loader.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-model-saver.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-model-saver.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-model-saver.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-model-saver.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-model.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-quant.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-quant.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-quant.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-sampling.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-sampling.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-sampling.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/llama-vocab.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/llama-vocab.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-vocab.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/unicode-data.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/unicode-data.cpp",
+  "output": "src/CMakeFiles/llama.dir/unicode-data.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/src",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/src/. -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/unicode.cpp.o -c /data/data/com.termux/files/home/llama.cpp/src/unicode.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/src/unicode.cpp",
+  "output": "src/CMakeFiles/llama.dir/unicode.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/build_info.dir/build-info.cpp.o -c /data/data/com.termux/files/home/llama.cpp/build/common/build-info.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/build/common/build-info.cpp",
+  "output": "common/CMakeFiles/build_info.dir/build-info.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/arg.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/arg.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/arg.cpp",
+  "output": "common/CMakeFiles/common.dir/arg.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/chat-parser.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/chat-parser.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/chat-parser.cpp",
+  "output": "common/CMakeFiles/common.dir/chat-parser.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/chat.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/chat.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/chat.cpp",
+  "output": "common/CMakeFiles/common.dir/chat.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/common.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/common.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/common.cpp",
+  "output": "common/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/console.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/console.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/console.cpp",
+  "output": "common/CMakeFiles/common.dir/console.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/json-partial.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/json-partial.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/json-partial.cpp",
+  "output": "common/CMakeFiles/common.dir/json-partial.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/json-schema-to-grammar.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/json-schema-to-grammar.cpp",
+  "output": "common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/llguidance.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/llguidance.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/llguidance.cpp",
+  "output": "common/CMakeFiles/common.dir/llguidance.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/log.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/log.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/log.cpp",
+  "output": "common/CMakeFiles/common.dir/log.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/ngram-cache.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/ngram-cache.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/ngram-cache.cpp",
+  "output": "common/CMakeFiles/common.dir/ngram-cache.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/regex-partial.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/regex-partial.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/regex-partial.cpp",
+  "output": "common/CMakeFiles/common.dir/regex-partial.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/sampling.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/sampling.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/sampling.cpp",
+  "output": "common/CMakeFiles/common.dir/sampling.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/common",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/common.dir/speculative.cpp.o -c /data/data/com.termux/files/home/llama.cpp/common/speculative.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/common/speculative.cpp",
+  "output": "common/CMakeFiles/common.dir/speculative.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-tokenizer-0.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-tokenizer-0.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-sampling.dir/test-sampling.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-sampling.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-sampling.cpp",
+  "output": "tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-sampling.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-sampling.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-grammar-parser.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-grammar-parser.cpp",
+  "output": "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-grammar-integration.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-grammar-integration.cpp",
+  "output": "tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-grammar-integration.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-llama-grammar.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-llama-grammar.cpp",
+  "output": "tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-llama-grammar.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-chat.dir/test-chat.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-chat.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-chat.cpp",
+  "output": "tests/CMakeFiles/test-chat.dir/test-chat.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-chat.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-chat.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/tools/server -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-json-schema-to-grammar.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-json-schema-to-grammar.cpp",
+  "output": "tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/tools/server -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-quantize-stats.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-quantize-stats.cpp",
+  "output": "tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-gbnf-validator.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-gbnf-validator.cpp",
+  "output": "tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-tokenizer-1-bpe.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-tokenizer-1-bpe.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-tokenizer-1-spm.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-tokenizer-1-spm.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-chat-parser.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-chat-parser.cpp",
+  "output": "tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-chat-parser.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-chat-template.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-chat-template.cpp",
+  "output": "tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-chat-template.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-chat-template.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-json-partial.dir/test-json-partial.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-json-partial.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-json-partial.cpp",
+  "output": "tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-json-partial.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-json-partial.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-log.dir/test-log.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-log.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-log.cpp",
+  "output": "tests/CMakeFiles/test-log.dir/test-log.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-log.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-log.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-regex-partial.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-regex-partial.cpp",
+  "output": "tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-regex-partial.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-thread-safety.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-thread-safety.cpp",
+  "output": "tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-thread-safety.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-arg-parser.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-arg-parser.cpp",
+  "output": "tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-arg-parser.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-gguf.dir/test-gguf.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-gguf.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-gguf.cpp",
+  "output": "tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-gguf.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-gguf.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-backend-ops.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-backend-ops.cpp",
+  "output": "tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-backend-ops.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-model-load-cancel.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-model-load-cancel.cpp",
+  "output": "tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-autorelease.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-autorelease.cpp",
+  "output": "tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-autorelease.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-barrier.dir/test-barrier.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-barrier.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-barrier.cpp",
+  "output": "tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-barrier.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-barrier.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-quantize-fns.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-quantize-fns.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-quantize-perf.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-quantize-perf.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-quantize-perf.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-rope.dir/test-rope.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-rope.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-rope.cpp",
+  "output": "tests/CMakeFiles/test-rope.dir/test-rope.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-rope.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-rope.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -O2 -g -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread -o CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-mtmd-c-api.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-mtmd-c-api.c",
+  "output": "tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tests",
+  "command": "/data/data/com.termux/files/usr/bin/cc -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/test-c.dir/test-c.c.o -c /data/data/com.termux/files/home/llama.cpp/tests/test-c.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tests/test-c.c",
+  "output": "tests/CMakeFiles/test-c.dir/test-c.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/batched",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-batched.dir/batched.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/batched/batched.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/batched/batched.cpp",
+  "output": "examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/embedding",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-embedding.dir/embedding.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/embedding/embedding.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/embedding/embedding.cpp",
+  "output": "examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/eval-callback",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/eval-callback/eval-callback.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/eval-callback/eval-callback.cpp",
+  "output": "examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gguf-hash",
+  "command": "/data/data/com.termux/files/usr/bin/cc  -I/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps -O2 -g -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -c /data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c",
+  "output": "examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gguf-hash",
+  "command": "/data/data/com.termux/files/usr/bin/cc  -I/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps -O2 -g -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -w -o CMakeFiles/sha1.dir/deps/sha1/sha1.c.o -c /data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c",
+  "output": "examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gguf-hash",
+  "command": "/data/data/com.termux/files/usr/bin/cc  -I/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps -O2 -g -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -c /data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c",
+  "output": "examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gguf-hash",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/deps -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/gguf-hash.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gguf-hash/gguf-hash.cpp",
+  "output": "examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gguf",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-gguf.dir/gguf.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/gguf/gguf.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gguf/gguf.cpp",
+  "output": "examples/gguf/CMakeFiles/llama-gguf.dir/gguf.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gritlm",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-gritlm.dir/gritlm.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/gritlm/gritlm.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gritlm/gritlm.cpp",
+  "output": "examples/gritlm/CMakeFiles/llama-gritlm.dir/gritlm.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/lookahead",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-lookahead.dir/lookahead.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/lookahead/lookahead.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/lookahead/lookahead.cpp",
+  "output": "examples/lookahead/CMakeFiles/llama-lookahead.dir/lookahead.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/lookup",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-lookup.dir/lookup.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup.dir/lookup.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/lookup",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup-create.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup-create.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/lookup",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup-merge.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup-merge.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/lookup",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-lookup-stats.dir/lookup-stats.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup-stats.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/lookup/lookup-stats.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup-stats.dir/lookup-stats.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/parallel",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-parallel.dir/parallel.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/parallel/parallel.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/parallel/parallel.cpp",
+  "output": "examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/passkey",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-passkey.dir/passkey.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/passkey/passkey.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/passkey/passkey.cpp",
+  "output": "examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/retrieval",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/retrieval/retrieval.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/retrieval/retrieval.cpp",
+  "output": "examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/save-load-state",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "output": "examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/simple",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-simple.dir/simple.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/simple/simple.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/simple/simple.cpp",
+  "output": "examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/simple-chat",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/simple-chat/simple-chat.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/simple-chat/simple-chat.cpp",
+  "output": "examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/speculative",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-speculative.dir/speculative.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/speculative/speculative.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/speculative/speculative.cpp",
+  "output": "examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/speculative-simple",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-speculative-simple.dir/speculative-simple.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/speculative-simple/speculative-simple.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/speculative-simple/speculative-simple.cpp",
+  "output": "examples/speculative-simple/CMakeFiles/llama-speculative-simple.dir/speculative-simple.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/gen-docs",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/gen-docs/gen-docs.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/gen-docs/gen-docs.cpp",
+  "output": "examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/training",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-finetune.dir/finetune.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/training/finetune.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/training/finetune.cpp",
+  "output": "examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/examples/convert-llama2c-to-ggml",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -c /data/data/com.termux/files/home/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "output": "examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/pocs/vdot",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/pocs -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -pthread -o CMakeFiles/llama-vdot.dir/vdot.cpp.o -c /data/data/com.termux/files/home/llama.cpp/pocs/vdot/vdot.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/pocs/vdot/vdot.cpp",
+  "output": "pocs/vdot/CMakeFiles/llama-vdot.dir/vdot.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/pocs/vdot",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/pocs -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -pthread -o CMakeFiles/llama-q8dot.dir/q8dot.cpp.o -c /data/data/com.termux/files/home/llama.cpp/pocs/vdot/q8dot.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/pocs/vdot/q8dot.cpp",
+  "output": "pocs/vdot/CMakeFiles/llama-q8dot.dir/q8dot.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/batched-bench",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/batched-bench/batched-bench.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/batched-bench/batched-bench.cpp",
+  "output": "tools/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/gguf-split",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/gguf-split/gguf-split.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/gguf-split/gguf-split.cpp",
+  "output": "tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/imatrix",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/imatrix/imatrix.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/imatrix/imatrix.cpp",
+  "output": "tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/llama-bench",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-bench.dir/llama-bench.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/llama-bench/llama-bench.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/llama-bench/llama-bench.cpp",
+  "output": "tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/main",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-cli.dir/main.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/main/main.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/main/main.cpp",
+  "output": "tools/main/CMakeFiles/llama-cli.dir/main.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/perplexity",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/perplexity/perplexity.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/perplexity/perplexity.cpp",
+  "output": "tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/quantize",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/tools/quantize/../../common -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-quantize.dir/quantize.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/quantize/quantize.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/quantize/quantize.cpp",
+  "output": "tools/quantize/CMakeFiles/llama-quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/server",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/tools/server -I/data/data/com.termux/files/home/llama.cpp/build/tools/server -I/data/data/com.termux/files/home/llama.cpp/tools/server/../llava -I/data/data/com.termux/files/home/llama.cpp -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-server.dir/server.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/server/server.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/server/server.cpp",
+  "output": "tools/server/CMakeFiles/llama-server.dir/server.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/run",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-run.dir/run.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/run/run.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/run/run.cpp",
+  "output": "tools/run/CMakeFiles/llama-run.dir/run.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/run",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/run/linenoise.cpp/linenoise.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/run/linenoise.cpp/linenoise.cpp",
+  "output": "tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/tokenize",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-tokenize.dir/tokenize.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/tokenize/tokenize.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/tokenize/tokenize.cpp",
+  "output": "tools/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/tts",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-tts.dir/tts.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/tts/tts.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/tts/tts.cpp",
+  "output": "tools/tts/CMakeFiles/llama-tts.dir/tts.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../.. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../../vendor -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -Wno-cast-qual -pthread -o CMakeFiles/mtmd.dir/mtmd.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd.cpp",
+  "output": "tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../.. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../../vendor -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -Wno-cast-qual -pthread -o CMakeFiles/mtmd.dir/mtmd-audio.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd-audio.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd-audio.cpp",
+  "output": "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../.. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../../vendor -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -Wno-cast-qual -pthread -o CMakeFiles/mtmd.dir/clip.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/clip.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/clip.cpp",
+  "output": "tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../.. -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/../../vendor -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/src/../include -O2 -g -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -Wno-cast-qual -pthread -o CMakeFiles/mtmd.dir/mtmd-helper.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd-helper.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd-helper.cpp",
+  "output": "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "output": "tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "output": "tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "output": "tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/deprecation-warning.cpp",
+  "output": "tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/mtmd",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -I/data/data/com.termux/files/home/llama.cpp/tools/mtmd/. -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd-cli.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/mtmd/mtmd-cli.cpp",
+  "output": "tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/cvector-generator",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/cvector-generator/cvector-generator.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/cvector-generator/cvector-generator.cpp",
+  "output": "tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/llama.cpp/build/tools/export-lora",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -DLLAMA_USE_CURL -I/data/data/com.termux/files/home/llama.cpp/common/. -I/data/data/com.termux/files/home/llama.cpp/common/../vendor -I/data/data/com.termux/files/home/llama.cpp/src/../include -I/data/data/com.termux/files/home/llama.cpp/ggml/src/../include -O2 -g -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -c /data/data/com.termux/files/home/llama.cpp/tools/export-lora/export-lora.cpp",
+  "file": "/data/data/com.termux/files/home/llama.cpp/tools/export-lora/export-lora.cpp",
+  "output": "tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/llama-simple-chat.dir/link.d "CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o" -o ../../bin/llama-simple-chat  -Wl,-rpath,/data/data/com.termux/files/home/llama.cpp/build/bin: ../../bin/libllama.so -lpthread ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so
